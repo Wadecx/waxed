@@ -1,0 +1,30 @@
+.menu-wrapper{
+    display: flex;
+    width: 80%;
+    margin-inline: auto;
+}
+
+.menu-wrapper .leftSide{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.leftSide .rating{
+    background-color: #6D5EB7;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rating .details{
+    background-color: #ffffff2d;
+    display: flex;
+    gap: 20px;
+    padding: 5px 200px 5px 200px;
+    margin-top: 1vh;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 40px;
+}
