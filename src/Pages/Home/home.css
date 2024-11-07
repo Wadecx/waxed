@@ -113,10 +113,26 @@ h3 {
   margin-right: 5%;
   gap: 50px;
   margin-top: 5vh;
+  align-items: center;
+  
+}
+
+.apps .link {
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  border: none;
+  color: White;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #6d5eb7;
+  cursor: pointer;
+  text-align: center;
 }
 
 .rightSide .apps img {
   width: 60px;
+  border-radius: 100px;
 }
 
 .code .rightSide

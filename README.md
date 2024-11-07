@@ -1,6 +1,6 @@
-# React + Vite
+# Waxed Repo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ceci et le repos de mon projet TTV_Bots
 
 Currently, two official plugins are available:
 

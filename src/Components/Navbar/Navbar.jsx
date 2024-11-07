@@ -1,4 +1,6 @@
 import "./navbar.css"
+import {Link} from "react-router-dom"
+
 
 const Navbar = () => {
   return (
@@ -10,8 +12,7 @@ const Navbar = () => {
 
         <div className="midSide">
             <ul>
-                <a href="">APPS</a>
-                <a href="">FAQ</a>
+                <Link to={"/"} href="">Home</Link>
             </ul>
         </div>
 
