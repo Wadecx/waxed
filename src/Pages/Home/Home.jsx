@@ -1,7 +1,7 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import "./home.css";
 import apps from "../../Components/hooks/apps.json";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 // Import des icons
 
@@ -71,12 +71,17 @@ const Home = () => {
           <h3>Project Review</h3>
           {apps.map((element) => {
             return (
-              <form className="apps" key={element.name} href="https://github.com">
+              <form
+                className="apps"
+                key={element.name}
+                href="https://github.com"
+              >
                 <img src={element.image} alt="" />
                 <h3>{element.name}</h3>
                 <h3>{element.version}</h3>
-                <h3>{element.Status}</h3>
-                <Link to={"/ttvbots"} className="link">Check</Link>
+                <Link to={"/ttvbots"} className="link">
+                  Check
+                </Link>
               </form>
             );
           })}
