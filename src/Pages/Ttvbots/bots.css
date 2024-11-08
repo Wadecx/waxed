@@ -8,13 +8,14 @@
   font-style: normal;
   color: white;
   gap: 20px;
+  height: 80vh;
 }
 
 .bots-wrapper .rightSide {
   padding: 20px;
   background-color: #2b2d30;
   border-radius: 40px;
-  width: 40%;
+  width: 30%;
 }
 
 .rightSide p {

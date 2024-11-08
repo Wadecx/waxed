@@ -19,7 +19,10 @@ const Home = () => {
             <div className="details">
               <div className="users">
                 <h4>
-                  Users <User />
+                  Users{" "}
+                  <span className="red">
+                    <User />
+                  </span>
                 </h4>
                 <h3>1234</h3>
               </div>
@@ -38,10 +41,13 @@ const Home = () => {
             </div>
             <div className="table">
               <ul>
-                <li>Mark : Incroyable</li>
-                <li>Joe : How it is possible ?</li>
-                <li>Eden : ça marche super bien !</li>
-                <li>Josh : Le logiciel et vraiment bien !</li>
+                <li>Alex: "Great, the program works perfectly!"</li>
+                <li>Jordan: "No bugs detected, running smoothly!"</li>
+                <li>Sam: "Code executes without errors, nice work!"</li>
+                <li>
+                  Taylor: "Expected result achieved, your program runs
+                  flawlessly!"
+                </li>
               </ul>
             </div>
           </div>

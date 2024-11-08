@@ -33,26 +33,28 @@ const Bots = () => {
     <div className="bots">
       <Navbar />
       <div className="bots-wrapper">
-        <div className="leftSide"></div>
-        <iframe
-          style={{
-            borderRadius: "40px",
+        <div className="leftSide">
+          <iframe style={{
+            borderRadius: '40px'
           }}
-          width="600"
-          height="600"
-          src="https://www.youtube.com/embed/Ulm_Z646eBg?si=i2CzI27kT35-rjnr"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+            width="900"
+            height="700"
+            src="https://www.youtube.com/embed/AjFIS0d10FE?si=sLGDOlSAS1wIoZs0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
         <div className="rightSide">
-          <h2>Buy 1 time for life time </h2>
+          <h1>What TTV Bots ?</h1>
+          <h2>One-time purchase, yours forever.</h2>
           <p>
-            Our program stands out by offering superior quality and performance
-            at a lower cost, delivering exceptional value that other solutions
-            simply can't match.
+            Twitch TV Bots is a program that uses a proxy through your local
+            machine to connect to a specified channel in the application,
+            thereby increasing the view count for that channel.
           </p>
           <iframe
             data-tally-src="https://tally.so/embed/nWpagj?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
